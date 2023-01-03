@@ -6,14 +6,21 @@ body {
 
 .header {
     width: 100%;
-    background-color: #252323;
-    height: 60px;
+    height: 143px;
 }
 
 .headerContainer {
     margin: 0 auto;
-    width: 980px;
+    width: 100%;
+    height: 59px;
+    background-color: #252323;
     position: relative;
+    border-top: 2px solid #2a2828;
+}
+
+.logoContainer {
+    margin: 0 auto;
+    width: 980px;
 }
 
 .logo {
@@ -30,4 +37,75 @@ body {
 .socialNetworks ul li {
     display: inline-block;
     margin-left: 15px;
+}
+
+.menuContainer {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    border-bottom: 4px solid #efefef;
+    height: 84px;
+}
+
+.mainMenu {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.menuLinks {
+    width: 70%;
+    float: left;
+    padding-top: 35px;
+}
+
+.menuLinks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuLinks ul li:first-child {
+    margin-left: 15px;
+}
+
+.menuLinks ul li:not(:first-child) {
+    margin-left: 30px;
+}
+
+.menuLinks ul li {
+    display: inline-block;
+    color:#8b8b8b;
+}
+
+.menuLinks ul li a {
+    color:#8b8b8b;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+.search {
+    width: 30%;
+    float: right;
+}
+
+.search input {
+    margin-top: 22px;
+    margin-right: 45px;
+    float: right;
+    width: 190px;
+    height: 36px;
+    padding: 0 17px 0 17px;
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border:1px solid #d6d6d6;
+    border-radius: 3px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
 }
